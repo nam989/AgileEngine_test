@@ -1,0 +1,32 @@
+div.item {
+  display: flex;
+  width: 30%;
+  min-width: 250px;
+  height: 250px;
+  margin: 10px 10px 5px 0;
+}
+img {
+  max-width: 50%;
+  max-height: 220px;
+  height: auto;
+  padding-left: 3px;
+}
+div.data {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
+div.tittle {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+div.about {
+  font-size: 12px;
+  text-transform: uppercase;
+  max-height: 160px;
+  font-family: Helvetica, Arial, Sans-Serif;
+}
